@@ -3017,6 +3017,10 @@ class Google_Service_Compute extends Google_Service
                   'type' => 'string',
                   'required' => true,
                 ),
+                'sourceInstanceTemplate' => array(
+                  'location' => 'query',
+                  'type' => 'string',
+                ),
                 'requestId' => array(
                   'location' => 'query',
                   'type' => 'string',
