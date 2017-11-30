@@ -2,3 +2,9 @@ vendor
 composer.lock
 src/Google/Service/Compute/HTTPHealthCheck.php
 src/Google/Service/Compute/HTTPSHealthCheck.php
+/.idea/deployment.xml
+/.idea/vcs.xml
+/.idea/webServers.xml
+/.idea/workspace.xml
+/.idea/google-api-php-client-services.iml
+/.idea/modules.xml

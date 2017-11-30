@@ -109,8 +109,8 @@ class Google_Service_Compute extends Google_Service
   {
     parent::__construct($client);
     $this->rootUrl = 'https://www.googleapis.com/';
-    $this->servicePath = 'compute/v1/projects/';
-    $this->version = 'v1';
+    $this->servicePath = 'compute/beta/projects/';
+    $this->version = 'beta';
     $this->serviceName = 'compute';
 
     $this->acceleratorTypes = new Google_Service_Compute_Resource_AcceleratorTypes(
@@ -3019,7 +3019,7 @@ class Google_Service_Compute extends Google_Service
                 ),
                 'sourceInstanceTemplate' => array(
                   'location' => 'query',
-                  'type' => 'string',
+                  'type' => 'string'
                 ),
                 'requestId' => array(
                   'location' => 'query',
